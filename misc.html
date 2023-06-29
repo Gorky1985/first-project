@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goran Cosic Photography</title>
+    <meta
+      name="description"
+      content="Website Portfolio of Goran Cosic with free downloadable material"
+    />
+    <link rel="stylesheet" href="styleAll.css" type="text/css" media="all" />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    <div class="outer-wrap">
+      <header class="masthead">
+        <div class="sidebar-switcher">
+          Select layout:
+          <a href="#" class="sidebar-left-toggle"
+            ><i class="fa fa-align-left"></i
+            ><span class="screen-reader-text">Move sidebar to the left</span></a
+          >
+          <a href="#" class="sidebar-right-toggle"
+            ><i class="fa fa-align-right"></i
+            ><span class="screen-reader-text"
+              >Move sidebar to the right</span
+            ></a
+          >
+          <a href="#" class="no-sidebar-toggle"
+            ><i class="fa fa-align-justify"></i
+            ><span class="screen-reader-text">Remove sidebar</span></a
+          >
+          <a href="#" class="hide-sidebar-toggle"
+            ><i class="fa fa-arrow-circle-right"></i
+            ><span class="screen-reader-text">Remove sidebar</span></a
+          >
+        </div>
+        <div class="centered">
+          <div class="site-branding">
+            <h1 class="site-title">Goran Cosic Photography</h1>
+          </div>
+        </div>
+        <section class="menu-section">
+          <div class="nav-mixed">
+            <nav
+              id="multi-level-nav"
+              class="multi-level-nav menu"
+              role="navigation"
+            >
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="has-children">
+                  <a href="#" class="toggleSub"
+                    >Portfolio<button
+                      class="dropdown-toggle genre"
+                      aria-expanded="false"
+                    >
+                      <span class="screen-reader-text">Expand child menu</span>
+                    </button></a
+                  >
+                  <ul class="sub-menu">
+                    <li><a href="portraits.html">Portraits</a></li>
+                    <li><a href="landscape.html">Landscape</a></li>
+                    <li><a href="wildlife.html">Wildlife</a></li>
+                    <li><a href="night.html">Night</a></li>
+                    <li><a href="children.html">Children</a></li>
+                    <li><a href="urban.html">Urban</a></li>
+                    <li><a href="misc.html">Misc</a></li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="#" class="toggleSub"
+                    >News<button
+                      class="dropdown-toggle news"
+                      aria-expanded="false"
+                    >
+                      <span class="screen-reader-text">Expand child menu</span>
+                    </button></a
+                  >
+                  <ul class="sub-menu">
+                    <li><a href="news.html#bw">Black and white project</a></li>
+                    <li><a href="news.html#pano">Panoramas</a></li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="#" class="toggleSub"
+                    >About<button
+                      class="dropdown-toggle about"
+                      aria-expanded="false"
+                    >
+                      <span class="screen-reader-text">Expand child menu</span>
+                    </button></a
+                  >
+                  <ul class="sub-menu">
+                    <li><a href="about.html#bio">Biography</a></li>
+                    <li><a href="about.html#eq">Equipment I use</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <nav id="social-menu" class="social-menu menu" role="navigation">
+              <ul>
+                <li>
+                  <a href="http://twitter.com"
+                    ><span class="screen-reader-text">Twitter</span></a
+                  >
+                </li>
+                <li>
+                  <a href="http://facebook.com"
+                    ><span class="screen-reader-text">Facebook</span></a
+                  >
+                </li>
+                <li>
+                  <a href="http://linkedin.com"
+                    ><span class="screen-reader-text">LinkedIn</span></a
+                  >
+                </li>
+                <li>
+                  <a href="http://youtube.com"
+                    ><span class="screen-reader-text">YouTube</span></a
+                  >
+                </li>
+                <li>
+                  <a href="http://instagram.com"
+                    ><span class="screen-reader-text">Instagram</span></a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+      </header>
+      <div class="content">
+        <main class="main-area">
+          <div class="centered">
+            <h2 class="gallery-title" style="text-align: center">
+              Miscellaneous Gallery
+            </h2>
+
+            <div class="row">
+              <div class="column">
+                <img
+                  src="images/misc1small.jpg"
+                  onclick="openModal();currentSlide(1)"
+                  class="hover-shadow cursor"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="images/misc2small.jpg"
+                  onclick="openModal();currentSlide(2)"
+                  class="hover-shadow cursor"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="images/misc3small.jpg"
+                  onclick="openModal();currentSlide(3)"
+                  class="hover-shadow cursor"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="images/misc4small.jpg"
+                  onclick="openModal();currentSlide(4)"
+                  class="hover-shadow cursor"
+                />
+              </div>
+            </div>
+
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+                <div class="mySlides">
+                  <div class="numbertext">1 / 4</div>
+                  <img
+                    src="images/misc1big-480.jpg"
+                    alt="Drop of water falling"
+                    width="480"
+                    height="360"
+                    srcset="
+                      images//misc1big-480.jpg   480w,
+                      images//misc1big-960.jpg   960w,
+                      images//misc1big-1440.jpg 1440w,
+                      images//misc1big-1920.jpg 1920w
+                    "
+                    sizes="(max-width: 1440px) 80vw,       
+       100vw"
+                  />
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">2 / 4</div>
+                  <img
+                    src="images/misc2big-480.jpg"
+                    alt="Yellow rose"
+                    width="480"
+                    height="360"
+                    srcset="
+                      images//misc2big-480.jpg   480w,
+                      images//misc2big-960.jpg   960w,
+                      images//misc2big-1440.jpg 1440w,
+                      images//misc2big-1920.jpg 1920w
+                    "
+                    sizes="(max-width: 1440px) 80vw,       
+       100vw"
+                  />
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">3 / 4</div>
+                  <img
+                    src="images/misc3big-480.jpg"
+                    alt="Fruits"
+                    width="480"
+                    height="360"
+                    srcset="
+                      images//misc3big-480.jpg   480w,
+                      images//misc3big-960.jpg   960w,
+                      images//misc3big-1440.jpg 1440w,
+                      images//misc3big-1920.jpg 1920w
+                    "
+                    sizes="(max-width: 1440px) 80vw,       
+       100vw"
+                  />
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">4 / 4</div>
+                  <img
+                    src="images/misc4big-480.jpg"
+                    alt="A cup forming a heart with a shadow"
+                    width="480"
+                    height="360"
+                    srcset="
+                      images//misc4big-480.jpg   480w,
+                      images//misc4big-960.jpg   960w,
+                      images//misc4big-1440.jpg 1440w,
+                      images//misc4big-1920.jpg 1920w
+                    "
+                    sizes="(max-width: 1440px) 80vw,       
+       100vw"
+                  />
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/misc1small.jpg"
+                    onclick="currentSlide(1)"
+                    alt="Drop of water falling"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/misc2small.jpg"
+                    onclick="currentSlide(2)"
+                    alt="Yellow rose"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/misc3small.jpg"
+                    onclick="currentSlide(3)"
+                    alt="Fruits"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/misc4small.jpg"
+                    onclick="currentSlide(4)"
+                    alt="A cup forming a heart with a shadow"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2 class="link bw pano" style="margin: 2em">
+              <a href="portfolio.html"
+                ><i class="fa fa-long-arrow-left" aria-hidden="true"></i> BACK
+                TO PORTFOLIO</a
+              >
+            </h2>
+          </div>
+        </main>
+        <div class="sidebar">
+          <div class="squish-container">
+            <h3>Inspired by:</h3>
+            <nav class="example-menu">
+              <ul>
+                <li>
+                  <a href="https://www.nationalgeographic.com/"
+                    >National Geographic</a
+                  >
+                </li>
+                <li><a href="https://www.bbc.com/">BBC</a></li>
+                <li>
+                  <a href="https://www.bryanfpeterson.com/">Bryan Peterson</a>
+                </li>
+                <li>
+                  <a href="https://markwallacephotography.com/work"
+                    >Mark Wallace</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- .example-menu -->
+          </div>
+        </div>
+        <!-- .sidebar -->
+      </div>
+      <footer class="footer-area">
+        <div class="footer">
+          <p>&copy; 2023 Goran Cosic Photography</p>
+          <div class="foot-nav social-menu menu">
+            <ul>
+              <li>
+                <a href="http://twitter.com"
+                  ><span class="screen-reader-text">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="http://facebook.com"
+                  ><span class="screen-reader-text">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="http://linkedin.com"
+                  ><span class="screen-reader-text">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a href="http://youtube.com"
+                  ><span class="screen-reader-text">YouTube</span></a
+                >
+              </li>
+              <li>
+                <a href="http://instagram.com"
+                  ><span class="screen-reader-text">Instagram</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="JS/sidebar-switcher.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/gallery.js"></script>
+  </body>
+</html>

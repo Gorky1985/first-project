@@ -1,0 +1,54 @@
+.bw-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bw-flex > * {
+  flex-basis: 50%;
+}
+.link.bw {
+  text-align: center;
+  font-size: 2vw;
+}
+.bw-flex p:first-of-type {
+  font-size: 0.8em;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+.bw-flex h3:first-of-type {
+  text-align: center;
+  margin: 0;
+}
+.bw-flex img {
+  margin-bottom: 0;
+}
+.bw-flex {
+  background-color: #c5c5c5;
+  margin-bottom: 2em;
+}
+.pano-item1,
+.pano-item4 {
+  flex-basis: 65%;
+}
+.pano-item2,
+.pano-item3 {
+  flex-basis: 35%;
+}
+.pano-item2 p:first-of-type {
+  margin: 0;
+}
+.link.pano {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 61em) {
+  .bw-flex {
+    display: block;
+  }
+  .link.bw {
+    margin: 0;
+    padding: 0;
+  }
+}

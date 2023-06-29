@@ -1,0 +1,63 @@
+.main-area.contact {
+  padding: 0;
+}
+
+.contact-flex {
+  display: flex;
+  color: rgb(87, 87, 87);
+}
+.contact-hero {
+  display: flex;
+}
+.contact-hero img {
+  object-fit: cover;
+  margin-bottom: 0;
+}
+.contact-section {
+  flex: 0 0 50%;
+  padding: 1em;
+  font-size: 90%;
+}
+
+.contact-section hr {
+  opacity: 0.3;
+}
+.fa.icons {
+  font-size: 2em;
+}
+.input-pad-bor {
+  padding: 0.9em 0 0.9em 0.5em;
+  width: 100%;
+  font-size: inherit;
+}
+.grey {
+  filter: grayscale(75%);
+}
+.grey2 {
+  filter: grayscale(100%);
+}
+.grey + p {
+  padding-top: 1em;
+  margin-bottom: 0;
+  line-height: 0;
+}
+.contact-btn {
+  padding: 0.7em 1.5em;
+  border: none;
+  color: #000;
+  background-color: #c5c5c5;
+  font-size: inherit;
+}
+.contact-btn:hover {
+  background-color: #b1b1b1;
+}
+
+/*  MEDIA QUERIES    */
+@media screen and (max-width: 60em) {
+  .contact-flex {
+    display: block;
+  }
+  .contact-hero {
+    display: none;
+  }
+}
